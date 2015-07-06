@@ -8,14 +8,14 @@
     "grunt-banner": "~0.4"
   },
   "jspm": {
-    "main": "elementTransitions.min.js",
+    "main": "elementTransitions.min",
     "format": "global",
     "directories": {
       "lib": "build"
     },
     "shim": {
-      "elementTransitions.min.js": {
-        "deps":["elementTransitions.css"]
+      "elementTransitions.min": {
+        "deps":["elementTransitions.css!"]
       }
     }  
   }    
