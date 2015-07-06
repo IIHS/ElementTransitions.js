@@ -12,6 +12,11 @@
     "format": "global",
     "directories": {
       "lib": "build"
+    },
+    "shim": {
+      "elementTransitions.min.js": {
+        "deps":["elementTransitions.css"]
+      }
     }  
   }    
 }
