@@ -12,11 +12,7 @@
     "format": "global",
     "directories": {
       "lib": "build"
-    },
-    "files": [
-      "elementTransitions.css!",
-      "elementTransitions.min.js"
-    ]      
+    }  
   }    
 }
 
